@@ -1,0 +1,17 @@
+{
+  "name": "spbot",
+  "version": "1.0.0",
+  "description": "Chatbot to learning purpose.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "author": " vivek patel",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "express": "^4.15.3",
+    "request": "^2.81.0"
+  }
+}

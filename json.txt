@@ -1,0 +1,27 @@
+{
+    url:"https://newsapi.org/v1/articles",
+	qs:{source="techcrunch",apiKey="0a3b607ea69a4326ae3a44ca8efe71e9"},
+    method:"GET"
+}
+
+
+Hindu
+BBCNews
+ESPN
+techcrunch
+Time
+Economist
+HackerNews
+
+var chanels={
+ hindu:'the-hindu',
+ bbcnews:'bbc-news',
+ espn:'espn',
+ techcrunch:'techcrunch',
+ time:'time',
+ economist:'the-economist',
+ hackernews:'hacker-news'
+};
+
+if('time' in chanels)
+ window.alert(chanels['time']);
